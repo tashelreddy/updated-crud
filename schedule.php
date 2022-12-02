@@ -8,9 +8,12 @@
         <title>Selby's Driving School</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
-
+       <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
         <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+         <!-- Icon Font Css -->
+        <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
@@ -36,16 +39,16 @@
                                 <a href="home_page.php" class="nav-link text-warning fs-5" aria-current="page">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#courses" class="nav-link  text-warning fs-5">Courses</a>
+                                <a href="home_page.php" class="nav-link  text-warning fs-5">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#about" class="nav-link  text-warning fs-5">About</a>
+                                <a href="home_page.php" class="nav-link  text-warning fs-5">About</a>
                             </li>
                             <li class="nav-item">
                               <a href="faq.php" class="nav-link  text-warning fs-5">faq</a>
                           </li>
                             <li class="nav-item">
-                                <a href="#contact" target="_blank" class="nav-link  text-warning fs-5">Contact</a>
+                                <a href="home_page.php" target="_blank" class="nav-link  text-warning fs-5">Contact</a>
                             </li>
                         
                         <div class="ms-auto me-1 d-grid d-md-block gap-3 mb-2 mb-md-0">
@@ -70,69 +73,233 @@
         </nav>
   
 
-
-
-
-
-
-
-
- <!-- contact testimonial-->
- <div id="contact" class="contact">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="titlepage">
-                     <h2>Contact <span class="white">Us</span></h2>
-                  </div>
-                  <div class="cont">
-                     <span>Send A message </br>
-                     Message us on Whatsapp <br>
-                     + 1 876 244 8835 <i class="fa fa-whatsapp fs-8 mx-1 mb-5" style="color: #1f5f35;"></i></span>
-                  
-                   </div>
-               </div>
-               <div class="col-md-6">
-                  <form class="main_form">
-                     <div class="row">
-                        <div class="col-sm-12">
-                           <input class="contactus" placeholder="Full Name" type="text" name="
-                              Full Name">
-                        </div>
-                        <div class="col-sm-12">
-                           <input class="contactus" placeholder="Email" type="text" name=" Email">
-                        </div>
-                        <div class="col-sm-12">
-                           <input class="contactus" placeholder="Phone" type="text" name="Phone">
-                        </div>
-                        <div class="col-sm-12">
-                           <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
-                        </div>
-                        <div class="col-sm-12">
-                           <button class="send">Send</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-      <!-- end contact -->
+        <section class="features">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<h2 class="text-success mt-5">Book Your weekly schedule.</h2>
+                    <hr class="divider" />
+					<p class="text-dark mb-3 ">Only Registered Students can book sessions using this page.</p>
+                     <p class="text-dark mb-3">Not yet a student? Register here</p> 
+                     <a href="form.php"><button type="button" 
+                     class="btn btn-warning mb-3 mt-1">Register Today!</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="feature-block d-lg-flex">
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="fa fa-calendar-check-o fs-8"></i>
+						</div>
+						<span>Book a 2 hour</span>
+						<h4 class="mb-3 text-dark">Click to book session</h4>
+						<p class="mb-4 text-dark">This calender is to book a session for 2 hours. If you need to cancel, please follow protocol.</p>
+                        <li class="d-flex justify-content-between mb-3">Mon - Sat : <span>8:00am - 19:00pm</span></li>
+						<a href="#" class="btn btn-main btn-round-full">Book Session</a>
+					</div>
+				
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+						<i class="fa fa-calendar-check-o fs-8"></i>
+						</div>
+						<span>Book a 1 hour</span>
+						<h4 class="mb-3 text-dark">Click to book session</h4>
+						<p class="mb-4 text-dark">This calender is to book a session for 1 hour. If you need to cancel, please follow cancelation policy.</p>
+                        <li class="d-flex justify-content-between mb-3">Mon - Sat : <span>8:00am - 19:00pm</span></li>
+						<a href="#" class="btn btn-main btn-round-full">Book Session</a>
+					</div>
+				
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="fa fa-whatsapp  fs-8"></i>
+						</div>
+						<span>Emergency Cases</span>
+						<h4 class="mb-3  mt-3 text-dark">+1 (876) 470-3927</h4>
+						<p class="text-dark">If you are unable to use the calender to book your session, use the whatsapp page, we will confirm your booking there.</p>
+                        <a href="#" class="btn btn-main btn-round-full">Whatsapp <i class="fa fa-whatsapp"></i></a>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
-<!--Section: Contact v.2-->
-            <footer class=" py-5">
-              <div class="social-list d-flex justify-content-center">
-                    <a href="https://www.youtube.com/@selbysdrivingschool6916" target="_blank"><i class="fa fa-youtube fs-5 mx-3 mb-5" style="color: #1f5f35;"></i></a>
-                    <a href="https://web.whatsapp.com/"  target="_blank"><i class="fa fa-whatsapp fs-5 mx-3 mb-5" style="color: #1f5f35;"></i></a>
-                    <a href="https://www.facebook.com/people/Selbys-Driving-School/100064056128772/" target="_blank"><i class="fa fa-facebook fs-5 mx-3 mb-5" style="color: #1f5f35;"></i></a>
-                
-              </div>
-              <div class="container px-4 px-lg-5">
-                <div class="small text-center text-muted"> Privacy |<a href="download.pdf" src="download.pdf" class=" text-muted mx-1">Careers</a> | Copyright &copy; 2022 - Selby's Driving School</div> 
-              </div>
-          </footer>
-        </section>
+
+  <!--Section: Contact v.2-->
+  <section class="mb-0 bg-success" id="contact">
+
+<!--Section heading-->
+<div class="row gx-4 gx-lg-5 justify-content-center">
+  <div class="col text-center mb-0">
+      <h2 class=" text-light">Contact <span class="text-warning">Us</span> !</h2>
+      <hr class="divider" />
+      <p>Send us a message using the form below or send a whatsapp message.</p>
+  </div>
+</div>
+<div class="row">
+    <!--Grid column-->
+    <div class="col-md-9 mb-md-0 mb-5">
+        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                    <div class="md-form mb-0 mt-5 text-light">
+                        <input type="text" id="name" name="name" class="form-control">
+                        <label for="name" class="">Your name</label>
+                    </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                    <div class="md-form mb-0 mt-5 text-light">
+                        <input type="text" id="email" name="email" class="form-control">
+                        <label for="email" class="">Your email</label>
+                    </div>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form mb-0 mt-5 text-light">
+                        <input type="text" id="subject" name="subject" class="form-control">
+                        <label for="subject" class="">Subject</label>
+                    </div>
+                </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+
+                    <div class="md-form mt-5 text-light">
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+
+                </div>
+            </div>
+            <!--Grid row-->
+
+        </form>
+
+        <div class="text-center text-md-left">
+            <a class="btn btn-warning" onclick="document.getElementById('contact-form').submit();">Send Message</a>
+        </div>
+        <div class="status"></div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-md-3 text-center text-light">
+        <ul class="list-unstyled mb-0">
+            <li><i class="fa fa-location-dot" style="color: #f9f01b;"></i>
+                <p>1138 B, Catherine Hall Drv, Montego Bay</p>
+            </li>
+
+            <li><i class="fab fa-whatsapp mt-4" style="color: #f9f01b; font-weight: 900;"></i>
+                <p>+1 (876) 470-3927</p>
+            </li>
+            <li><i class="fa fa-envelope mt-4" style="color: #f9f01b;"></i>
+                <p>selby'sdrivingschool@gmail.com</p>
+            </li>
+        </ul>
+    </div>
+    <!--Grid column-->
+
+</div>
+
+</section>
+
+<!-- footer Start -->
+<footer class="footer section bg-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 mr-auto col-sm-6">
+				<div class="widget mb-5 mb-lg-0">
+					<div class="logo mb-4 mt-4">
+                    <img src="assets/img/selby driving school.png" class="rounded mx-auto d-block" style="width: 70px; ;" alt="Selby's Driving School">
+
+					</div>
+					<p class="text-white">Follow our social media, like share and subscribe.Feel free to contact us on our social media also.</p>
+
+					<ul class="list-inline footer-socials mt-4">
+                    <a href="https://www.youtube.com/@selbysdrivingschool6916" target="_blank"><i class="fa fa-youtube fs-5 mx-3 mb-5" style="color: #f9f016;"></i></a>
+                    <a href="https://web.whatsapp.com/"  target="_blank"><i class="fa fa-whatsapp fs-5 mx-3 mb-5" style="color: #f9f016;"></i></a>
+                    <a href="https://www.facebook.com/people/Selbys-Driving-School/100064056128772/" target="_blank"><i class="fa fa-facebook fs-5 mx-3 mb-5" style="color: #f9f016;"></i></a>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="widget mb-5 mb-lg-0">
+					<h4 class="text-capitalize  text-white mb-3 mt-3">Courses Offered</h4>
+					<div class="divider mb-4"></div>
+
+					<ul class="list-unstyled footer-menu lh-35 text-white">
+						<li>&#x2022 Beginner</li>
+						<li>&#x2022 Intermediate</a></li>
+						<li>&#x2022 Advanced</a></li>
+						<li>&#x2022 Refreshers</a></li>
+						<li>&#x2022 Pay as you go</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="widget mb-5 mb-lg-0">
+					<h4 class="text-capitalize  text-white mb-3 mt-3">Support</h4>
+					<div class="divider mb-4"></div>
+
+					<ul class="list-unstyled footer-menu lh-35 text-white">
+						<li><a class="text-white" style="text-decoration:none;" href="#about">&#x2022 Terms & Conditions</a></li>
+						<li><a class="text-white" style="text-decoration:none;" href="#about">&#x2022 Privacy Policy</a></li>
+						<li><a class="text-white" style="text-decoration:none;" href="#about">&#x2022 Company Support </a></li>
+						<li><a class="text-white" style="text-decoration:none;" href="faq.php">&#x2022 FAQuestions</a></li>
+						<li><a class="text-white" style="text-decoration:none;" href="#about">&#x2022 Company Licence</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="widget widget-contact mb-5 mb-lg-0">
+					<h4 class="text-capitalize  text-white mb-3 mt-3">Get in Touch</h4>
+					<div class="divider mb-4"></div>
+
+					<div class="footer-contact-block mb-4">
+						<div class="icon d-flex align-items-center">
+							<span class="h6 mb-0 text-white">Support Available for you</span>
+						</div>
+						<h4 class="mt-2"><a href="tel:+23-345-67890"  style="text-decoration:none; color: #f9f016;">selby'sdrivingschool@gmail.com</a></h4>
+					</div>
+
+					<div class="footer-contact-block">
+						<div class="icon d-flex align-items-center">
+						<span class="h6 mb-0 text-white">Mon to Fri : 08:00 - 18:00</span>
+						</div>
+						<h4 class="mt-2 text-white"><a href="tel:+23-345-67890"  style="text-decoration:none; color: #f9f016;">+1 (876) 470-3927</a></h4>
+					</div>
+				</div>
+			</div>
+          
+    <div class="small text-center text-muted mb-3"> Privacy |<a href="download.pdf" src="download.pdf" class=" text-muted mx-1">Careers</a> | Copyright &copy; 2022 - Selby's Driving School</div> 
+  
+</div>
+    
+</footer>
+
         <!-- Footer-->
        
         <!-- Bootstrap core JS-->
