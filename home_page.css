@@ -11595,3 +11595,147 @@ bottom: 20px;
 right: 20px;
 display: none;
 }
+
+.main_form {
+  padding-top: 137px;
+}
+
+.contact .main_form .contactus {
+   border: #8c8c8b solid 1px;
+   padding: 0px 1px;
+   margin-bottom: 20px;
+   width: 100%;
+   height: 42px;
+   background: transparent;
+   color: #8c8c8b;
+   font-size: 16px;
+   border-top: inherit;
+   border-right: inherit;
+   border-left: inherit;
+}
+
+.contact .main_form .textarea {
+   margin-bottom: 25px;
+   color: #8c8c8b !important;
+   width: 100%;
+   border: #8c8c8b solid 1px;
+   padding: 0px 1px;
+   padding-top: 38px;
+   background: transparent;
+   border-top: inherit;
+   border-right: inherit;
+   border-left: inherit;
+}
+
+.contact .main_form .send {
+   font-size: 16px;
+   transition: ease-in all 0.5s;
+   background-color: #000;
+   color: #fff;
+   padding: 12px 70px;
+   margin: 0 auto;
+   display: block;
+}
+
+.contact .main_form .send:hover {
+   background-color: #f9f016;
+   transition: ease-in all 0.5s;
+   color: green;
+}
+
+#contact *::placeholder {
+   color: #8c8c8b;
+   opacity: 1;
+}
+
+
+.contact-form-wrap .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form-wrap .form-group .form-control {
+  height: 60px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%;
+  background: #f4f9fc;
+}
+
+.contact-form-wrap .form-group-2 {
+  margin-bottom: 13px;
+}
+
+.contact-form-wrap .form-group-2 textarea {
+  height: auto;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  background: #f4f9fc;
+  width: 100%;
+}
+
+
+
+.footer {
+  padding-bottom: 10px;
+}
+
+.footer .copyright a {
+  font-weight: 600;
+}
+
+.lh-35 {
+  line-height: 35px;
+}
+
+.logo {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.logo h3 {
+  color: #223a66;
+}
+
+.logo span {
+  color: #223a66;
+}
+
+.widget .divider {
+  height: 3px;
+}
+
+.widget h4 {
+  color: #223a66;
+}
+
+.widget .footer-menu a {
+  color: #6F8BA4;
+}
+
+.widget .footer-menu a:hover {
+  color: #e12454;
+}
+
+.footer-contact-block span {
+  font-weight: 400;
+  color: #6F8BA4;
+}
+
+.footer-contact-block i {
+  font-size: 20px;
+}
+
+.footer-btm {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.footer-socials li a {
+  width: 45px;
+  height: 45px;
+  background: #6F8BA4;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+  padding-top: 12px;
+}
